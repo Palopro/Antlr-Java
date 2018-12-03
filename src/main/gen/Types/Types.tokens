@@ -1,0 +1,9 @@
+BYTE=1
+INT=2
+DOUBLE=3
+WHITESPACE=4
+VAR=5
+'byte'=1
+'int'=2
+'double'=3
+' '=4
