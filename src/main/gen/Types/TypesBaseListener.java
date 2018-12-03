@@ -1,4 +1,4 @@
-// Generated from C:/Users/vladh/Desktop/antlr-project/src/main/antlr/com/example/Types\Types.g4 by ANTLR 4.7
+// Generated from D:/GitHub/antlr-project/src/main/antlr/com/example/Types\Types.g4 by ANTLR 4.7
 package Types;
 
 import org.antlr.v4.runtime.ParserRuleContext;
@@ -23,6 +23,54 @@ public class TypesBaseListener implements TypesListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitType(TypesParser.TypeContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterAssigment(TypesParser.AssigmentContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitAssigment(TypesParser.AssigmentContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterArrayRule(TypesParser.ArrayRuleContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitArrayRule(TypesParser.ArrayRuleContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterClassRule(TypesParser.ClassRuleContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitClassRule(TypesParser.ClassRuleContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterClassExtendsRule(TypesParser.ClassExtendsRuleContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitClassExtendsRule(TypesParser.ClassExtendsRuleContext ctx) { }
 
 	/**
 	 * {@inheritDoc}

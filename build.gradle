@@ -14,5 +14,5 @@ repositories {
 }
 
 dependencies {
-antlr("org.antlr:antlr4:4.7")
+    antlr("org.antlr:antlr4:4.7")
 }

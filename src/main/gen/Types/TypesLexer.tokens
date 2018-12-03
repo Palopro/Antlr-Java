@@ -1,9 +1,23 @@
 BYTE=1
 INT=2
 DOUBLE=3
-WHITESPACE=4
-VAR=5
+CLASS=4
+WHILE=5
+EXTENDS=6
+WHITESPACE=7
+EQUAL=8
+OPENSQRBRACKET=9
+CLOSESQRBRACKET=10
+OPENFIGBRACK=11
+VAR=12
 'byte'=1
 'int'=2
 'double'=3
-' '=4
+'class'=4
+'while'=5
+'extends'=6
+' '=7
+'='=8
+'['=9
+']'=10
+'{'=11
