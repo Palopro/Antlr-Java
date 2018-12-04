@@ -1,4 +1,4 @@
-// Generated from C:/Users/vladh/Desktop/antlr-project/src/main/antlr/com/example/Calculator\Calculator.g4 by ANTLR 4.7
+// Generated from D:/GitHub/antlr-project/src/main/antlr/com/example/Calculator\Calculator.g4 by ANTLR 4.7
 package Calculator;
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;

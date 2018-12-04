@@ -2,7 +2,6 @@ package com.example;
 
 import Calculator.CalculatorLexer;
 import Calculator.CalculatorParser;
-import Calculator.CalculatorWalker;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
@@ -16,7 +15,7 @@ public class Run {
         CalculatorParser parser = new CalculatorParser(tokens);
         ParseTree tree = parser.input();
 
-        CalculatorWalker calcVisitor = new CalculatorWalker();
+        CalculatorBaseVisitorImpl calcVisitor = new CalculatorBaseVisitorImpl();
         Double result = calcVisitor.visit(tree);
         System.out.println("Result: " + result);
     }
